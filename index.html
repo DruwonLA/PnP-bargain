@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pick n Pay Bargain Project</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary sticky-top">
+  <div class="container">
+    <!-- Logo + Brand Name -->
+    <a class="navbar-brand d-flex align-items-center fw-bold" href="#">
+      <img src="images/pnp-logo.png" alt="Pick n Pay Logo" height="40" class="me-2">
+    </a>
+
+    <!-- Mobile Toggler -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Navigation Links -->
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#gallery">Gallery</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#final-video">Final Video</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#process">The Process</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about">About Us</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+ <!-- Hero Section with Video -->
+<header class="hero-section position-relative">
+  <video autoplay muted loop playsinline class="hero-video">
+    <source src="videos/video2.mp4" type="video/mp4">
+  </video>
+  <div class="video-overlay"></div>
+  <div class="container text-center py-5 position-relative z-index-1">
+    <div class="welcome-message-container">
+      <h1 class="welcome-text display-1 fw-bold mb-3 text-white animate__animated animate__fadeIn">Welcome</h1>
+    </div>
+    <a href="#final-video" class="btn btn-warning btn-lg mt-3 animate__animated animate__fadeIn animate__delay-1s">
+      <i class="fas fa-play me-2"></i>View Final Video
+    </a>
+  </div>
+</header>
+
+ <!-- Gallery Section -->
+ <section id="gallery" class="py-5">
+  <div class="container">
+    <h2 class="text-center mb-5 text-black">Featured Gallery</h2>
+    <h5 class="text-center mb-2 text-black">Shot by Moesfeeka Johnson</h5>
+    <h5 class="text-center mb-2 text-black">Styled by Mihlee Ndevu</h5>
+    <div class="row gallery-grid">
+    </div>
+  </div>
+</section>
+
+ <!-- Final Video Section -->
+<section id="final-video" class="py-5">
+  <div class="video-particles"></div>
+  <div class="play-button"></div>
+  <div class="play-button::before"></div>
+  <div class="play-button:hover"></div>
+
+  <div class="container">
+    <h2 class="text-center mb-5 text-black">Final Project Showcase</h2>
+    <h4 class="text-center mb-2 text-black">Edited by Haroon Jacobs</h4>
+    <div class="video-card-wrapper">
+      <div class="video-card">
+        <div class="video-container">
+          <video class="final-video" controls poster="images/Cover.JPG">
+            <source src="videos/video1.mp4" type="video/mp4">
+          </video>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="process" class="py-5 bg-light">
+  <div class="container">
+    <h2 class="text-center mb-5">Our Creative Process</h2>
+    <h4 class="text-center mb-2 text-blue">by Joel Japhta & Jordan Ruedolf</h4>
+    <div class="process-steps">
+    </div>
+  </div>
+</section>
+
+  <!-- About Us Section -->
+  <section id="about" class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-5">Meet the team</h2>
+      <div class="row team-members">
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white py-4">
+    <div class="container text-center">
+      <div class="social-icons mb-3">
+      </div>
+      <p>&copy; 2025 Bargain Project. All rights reserved.</p>
+    </div>
+  </footer>
+  <button class="back-to-top" aria-label="Back to top">
+    <i class="fas fa-arrow-up"></i>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+  </button>
+  </div>
+</body>
+</html> 
